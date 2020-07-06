@@ -1,0 +1,82 @@
+{
+  "lines": [
+    {
+      "x1": "0",
+      "y1": "0",
+      "x2": "90",
+      "y2": "0",
+      "stroke": "red",
+      "strokeWidth": "1"
+    },
+    {
+      "x1": "30",
+      "y1": "0",
+      "x2": "60",
+      "y2": "0",
+      "stroke": "black",
+      "strokeWidth": "5"
+    },
+    {
+      "x1": "0",
+      "y1": "0",
+      "x2": "0",
+      "y2": "100",
+      "stroke": "red",
+      "strokeWidth": "1"
+    },
+    {
+      "x1": "0",
+      "y1": "30",
+      "x2": "0",
+      "y2": "60",
+      "stroke": "black",
+      "strokeWidth": "5"
+    },
+    {
+      "x1": "0",
+      "y1": "100",
+      "x2": "70",
+      "y2": "100",
+      "stroke": "red",
+      "strokeWidth": "1"
+    },
+    {
+      "x1": "90",
+      "y1": "0",
+      "x2": "90",
+      "y2": "70",
+      "stroke": "red",
+      "strokeWidth": "1"
+    }
+  ],
+  "paths": [
+    {
+      "x": "9",
+      "y": "65",
+      "d": "M 80 2 A 1 1 0 0 1 60 35",
+      "fill": "none",
+      "stroke": "red",
+      "strokeWidth": "1"
+    }
+  ],
+  "storeView": {
+    "rect": {
+      "x": "0",
+      "y": "70",
+      "width": "35",
+      "height": "30",
+      "stroke": "black",
+      "strokeWidth": "1",
+      "fill": "grey"
+    },
+    "text": {
+      "x": "20",
+      "y": "90",
+      "fontSize": "10",
+      "stroke": "black",
+      "fill": "none",
+      "strokeWidth": "1",
+      "textAnchor": "middle"
+    }
+  }
+}
