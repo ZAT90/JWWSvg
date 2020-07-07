@@ -74,16 +74,16 @@ export default function App() {
                 );
               })}
 
-              <G
-                onPress={() =>
-                  Alert.alert('Alert Title', 'My Alert Msg', [
-                    {
-                      text: 'OK',
-                      onPress: () => console.log('Ask me later pressed'),
-                    },
-                  ])
-                }>
+              <G>
                 <Rect
+                  onPress={() =>
+                    Alert.alert('Alert Title', 'My Alert Msg', [
+                      {
+                        text: 'OK',
+                        onPress: () => console.log('Ask me later pressed'),
+                      },
+                    ])
+                  }
                   x={imgStoreView.storeView.rect.x}
                   y={imgStoreView.storeView.rect.y}
                   width={imgStoreView.storeView.rect.width}
@@ -93,6 +93,14 @@ export default function App() {
                   fill={imgStoreView.storeView.rect.fill}
                 />
                 <Text
+                  onPress={() =>
+                    Alert.alert('Alert Title', 'My Alert Msg', [
+                      {
+                        text: 'OK',
+                        onPress: () => console.log('Ask me later pressed'),
+                      },
+                    ])
+                  }
                   x={imgStoreView.storeView.text.x}
                   y={imgStoreView.storeView.text.y}
                   fontSize={imgStoreView.storeView.text.fontSize}
